@@ -1,3 +1,5 @@
 module.exports = function check(str, bracketsConfig) {
-  // your solution
+  if ( str.replace(bracketsConfig[0].join(''), '') ) {
+    return false;
+  } return true;
 }
